@@ -26,7 +26,7 @@ Este proyecto es una solución Full-Stack para la gestión de productos, desarro
 
 1. Clonar el repositorio:
    ```bash
-   git clone [URL-DE-TU-REPOSIORIO]
+   git clone https://github.com/SarAvi21805/lab4Web
    cd lab4Web
 
 2. Levantar la infraestructura con Docker:
@@ -39,8 +39,9 @@ Este proyecto es una solución Full-Stack para la gestión de productos, desarro
 
 ## 🔗 Endpoints de la API
 
-- GET /api/products - Listar todos los productos.
-- POST /api/products - Crear un nuevo producto.
-- PUT /api/products/:id - Actualización total.
-- PATCH /api/products/:id - Actualización parcial.
-- DELETE /api/products/:id - Eliminar producto.
+- `GET /api/products` - Listar todos los productos.
+- `GET /api/products/:id` - Obtener un producto específico (necesario para edición).
+- `POST /api/products` - Crear un nuevo producto.
+- `PUT /api/products/:id` - Actualización total.
+- `PATCH /api/products/:id` - Actualización parcial (Requisito Senior).
+- `DELETE /api/products/:id` - Eliminar producto.
